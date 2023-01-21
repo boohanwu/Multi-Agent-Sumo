@@ -1,0 +1,29 @@
+{
+    "Sumo": {
+        "checkpoints": [
+            {
+                "steps": 57863,
+                "file_path": "results\\4\\Sumo\\Sumo-57863.onnx",
+                "reward": null,
+                "creation_time": 1653482786.4256032,
+                "auxillary_file_paths": [
+                    "results\\4\\Sumo\\Sumo-57863.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 57863,
+            "file_path": "results\\4\\Sumo.onnx",
+            "reward": null,
+            "creation_time": 1653482786.4256032,
+            "auxillary_file_paths": [
+                "results\\4\\Sumo\\Sumo-57863.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1653473995",
+        "python_version": "3.7.13 (default, Mar 28 2022, 08:03:21) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\brian\\anaconda3\\envs\\unityML\\Scripts\\mlagents-learn config/sumo_config.yaml --run-id=2",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1653474064"
+    },
+    "total": 69.589756,
+    "count": 1,
+    "self": 0.014180500000009033,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1425943999999999,
+            "count": 1,
+            "self": 0.1425943999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 69.43298109999999,
+            "count": 1,
+            "self": 0.00013660000000470518,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 69.4328283,
+                    "count": 1,
+                    "self": 69.4328283
+                },
+                "TrainerController._save_models": {
+                    "total": 1.6199999990362812e-05,
+                    "count": 1,
+                    "self": 1.6199999990362812e-05
+                }
+            }
+        }
+    }
+}
